@@ -1,0 +1,64 @@
+body{
+	margin: 0;
+	padding: 0;
+	justify-content: center;
+	width: 100%;
+}
+header{
+	margin: 0 auto;
+	width: 100%;
+	min-width: 700px;
+	background-color: rgb(240, 75, 15);
+}
+a{
+	text-decoration: none;
+}
+.control{
+	max-width: 1380px;
+	display: flex;
+	align-items: center;
+	padding-top: 15px;
+}
+.logo{
+	height: 80px;
+	margin-left: 70px;
+}
+
+.control li{
+	display: block;
+}	
+.navig{
+	display: flex;
+	margin-left: auto;
+}
+
+.navig li{
+	margin-right: 30px;
+}
+
+.navig li a{
+	font-size: 18px;
+	font-weight: 400;
+	color: #fff;
+}
+
+.navig li a:hover{
+	color: rgb(160, 190, 0);
+	padding: 5px;
+	border: 1px double;
+}
+.active{
+	padding: 5px;
+	border-right:  1px double;
+	border-left:  1px double;
+}
+.table{
+	width: 90%;
+	max-width: 1380px;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.home{
+	width: 600px;
+}

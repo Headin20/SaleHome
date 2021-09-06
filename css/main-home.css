@@ -1,0 +1,252 @@
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+header{
+	margin: 0 auto;
+	width: 100%;
+	min-width: 700px;
+	background-color: rgb(240, 75, 15);
+}
+a{
+	text-decoration: none;
+	cursor: pointer;
+}
+.control{
+	max-width: 1380px;
+	height: 140px;
+	display: flex;
+	align-items: center;
+	padding-top: 15px;
+}
+.logo{
+	height: 140px;
+	margin-left: 70px;
+}
+.cat{
+	position: absolute;
+	top: -140px;
+	height: 140px;
+
+	animation-name: catsit;
+	animation-duration: 6s;
+}
+
+@keyframes catsit{
+	0%{
+		top:-140px;
+	}
+	50%{
+		top:0px;
+	}
+	75%{
+		top: -80px;
+	}
+	90%{
+		top:-140px;
+	}
+} 
+
+.navig{
+	margin-left: auto;
+}
+button.accordion{
+	background-color: #fff;
+	position: absolute;
+	top: 50px;
+	right: 40px; 
+	color: rgb(240, 75, 15);
+	size: 30px;
+	margin-right: 40px;
+	cursor: pointer;
+	padding: 18px;
+	width: 150px;
+	text-align: left;
+	border: none;
+	outline: none;
+	transition: 0.4s;
+}
+.element{
+	size: 24px;
+	color: rgb(240, 75, 15);
+	padding-top: 10px;
+	padding-left: 18px;
+	border-top: 2px solid rgb(240, 75, 15);
+	width: 130px;
+	height: 30px;
+	transition: 0.4s;
+}
+.element:hover{
+	background-color: rgb(200, 255, 130);
+}
+button.accordion.active,
+button.accordion:hover{
+	background-color: rgb(200, 255, 130);
+}
+.panel{
+	margin-right: 40px;
+	width: 148px;
+	position: absolute;
+	right: 40px;
+	top: 98px;
+	padding: 1px;
+	background-color: #fff;
+	display: none;
+}
+.panel.show{
+	display: block;
+}
+canvas{
+    margin: auto;
+    background-color:#eee;
+    border:1px solid #ccc;
+}
+.compani{
+	margin-left: 70px;
+	width: 85%;
+	max-width: 1380px;
+}
+.first{
+	display: flex;
+	
+}
+.text{
+	width: 60%;
+}
+
+.emblem{
+	width: 600px;
+	margin-right: auto;
+}
+.second{
+	width: 100%;
+	margin-bottom: 40px;
+}
+.project{
+	color: rgb(160, 190, 0);
+}
+.project:hover{
+	color: rgb(240, 75, 15);
+}
+.last_project{
+	margin-left: 70px;
+}
+.wrapper {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.tab {
+    position: relative;
+    display: inline-block;
+    padding: 5px 15px;
+    cursor: pointer;
+    z-index: 5;
+}
+.tab:hover{
+	border: 2px solid rgb(120, 240, 0);
+    border-bottom: 4px solid #fff;
+    border-radius: 3px 3px 0 0;
+}
+
+.tab.active {
+    border: 2px solid rgb(120, 240, 0);
+    border-bottom: 4px solid #fff;
+    border-radius: 3px 3px 0 0;
+}
+
+.content {
+    position: relative;
+    top: -2px;
+    display: none;
+    width: 100%;
+    min-height: 60px;
+    border: 2px solid rgb(120, 240, 0);
+    border-radius: 0 0 3px 3px;
+    padding: 10px;
+    z-index: 1;
+}
+.content.active{
+	display: block;
+}
+.home{
+	width: 560px;
+	height: 425px;
+}
+.com{
+	padding-left: 10px;
+}
+form {
+	border: 2px dotted rgb(120, 240, 0);
+	width: 1100px;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+input{
+	width: 500px;
+	height: 40px;
+	margin-top: 15px;
+	border: 1px dotted rgb(125, 125, 125);
+	padding: 5px;
+	font-size: 16px;
+}
+.coment{
+	width: 500px;
+	height: 40px;
+	margin-top: 15px;
+	border: 1px dotted rgb(125, 125, 125);
+	padding: 5px;
+	font-size: 16px;
+}
+.error{
+	border: 1px solid red;
+}
+form table tr td{
+	padding: 15px;
+}
+.ok{
+	width: 400px;
+	height: 50px;
+	font-size: 20px;
+	color: #fff;
+	background-color: rgb(240, 75, 15);
+	border-radius: 10px;
+	margin-top: 20px;
+}
+.form{
+	background-color: rgb(170, 255, 255);
+}
+.chek{
+	display: none;
+}
+.chek_active{
+	display: block;
+}
+video{
+	margin-top: 40px;
+}
+footer {
+	width: 100%;
+	background-color: rgb(0, 67, 0);
+	display: flex;
+	margin-top: 40px;
+	width: 100%;
+}
+.logo_footer{
+	height: 140px;
+}
+.nav_footer{
+	color: #fff;
+	font-size: 16px;
+	padding-top: 25px;
+}
+.map_video{
+	margin-left: 45px;
+	margin-right: 25px;
+}
+.contact{
+	color: #fff;
+	font-size: 16px;
+	padding-top: 25px;
+	margin-left: 150px;
+}
